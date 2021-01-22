@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Like Dislike</title>
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="like">
+        <i onclick="count()" class="fas fa-heart icon"></i>
+        <br>
+        <input id="likeCount" type="number" value="0">
+      </div>
+      <div class="dislike">
+        <i onclick="count1()" class="fas fa-heart-broken icon"></i>
+        <br>
+        <input id="dislikeCount" type="number" value="0">
+      </div>
+      <div class="subscribe">
+        <button>SUBSCRIBE</button>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

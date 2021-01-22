@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #3accfd;
+}
+.wrapper{
+  margin: 200px 15%;
+  width: 70%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 2fr;
+  background: #3accfd;
+  box-shadow: 12px 12px 24px #2a93b6,
+              -12px -12px 24px #4affff;
+  border-radius: 30px;
+}
+.like,.dislike,.subscribe{
+  display: grid;
+  place-items : center;
+}
+.icon{
+  margin-top: 70px;
+  font-size: 80px;
+  color: #0086b3;
+  cursor: pointer;
+  text-shadow: 5px 8px 15px #2a93b6;
+  transition: .5s;
+}
+.icon:hover{
+  color: #ba0015;
+  transform: scale(1.2);
+}
+input{
+  margin-top: -100px;
+  margin-left: 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: none;
+  font-size: 30px;
+  font-weight: 800;
+  pointer-events: none;
+  color: #0086b3;
+  text-shadow: 2px 2px 3px #2a93b6;
+}
+button{
+  background: #0086b3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ececec;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 35px;
+  transition: 0.5s;
+  box-shadow: 12px 12px 24px #2a93b6,
+              -12px -12px 24px #4affff;
+}
+button:hover{
+  background: #ba0015;
+  transform: scale(1.05);
+}
